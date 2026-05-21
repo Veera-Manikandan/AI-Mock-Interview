@@ -34,6 +34,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "https://ai-mock-interview-vsac.vercel.app",
       "https://ai-mock-interview-vsac-r7vwaf0va.vercel.app",
     ],
     credentials: true,
