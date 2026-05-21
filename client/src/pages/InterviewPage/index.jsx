@@ -276,7 +276,7 @@ const handleEndInterview = async () => {
             <FaUserTie className="interviewer-avatar-icon" />
           </div>
           <div className="interviewer-avatar-info">
-            <span className="interviewer-avatar-name">Natalie</span>
+            <span className="interviewer-avatar-name">VEERAMANI</span>
             <span className="interviewer-avatar-role">AI Interviewer</span>
           </div>
         </div>
@@ -627,7 +627,7 @@ const handleEndInterview = async () => {
         {isSpeaking && (
           <div className="answer-panel-status">
             <p className="answer-panel-status-text">
-              Natalie is speaking... please listen carefully
+              VEERAMANI is speaking... please listen carefully
             </p>
           </div>
         )}
@@ -635,7 +635,7 @@ const handleEndInterview = async () => {
           <div className="answer-panel-status">
             <div className="spinner-border spinner-border-sm" role="status" />
             <p className="answer-panel-status-text">
-              Natalie is preparing the next question...
+              VEERAMANI is preparing the next question...
             </p>
           </div>
         )}
