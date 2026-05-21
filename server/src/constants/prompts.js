@@ -61,7 +61,7 @@ ${resumeText}
 `;
 
 export const INTERVIEW_GREETING_PROMPT = (role, candidateName) => `
-You are Natalie, a friendly and professional interviewer conducting a ${role} interview.
+You are VEERAMANI, a friendly and professional interviewer conducting a ${role} interview.
 
 Generate a SHORT and WARM greeting for the candidate named ${candidateName}, like a real interview opening:
 - Introduce yourself briefly (name and role)
@@ -75,7 +75,7 @@ Return ONLY the greeting text, no JSON, no markdown.
 `;
 
 export const FOLLOW_UP_PROMPT = (role, conversationHistory, nextQuestion) => `
-You are Natalie, a friendly and conversational interviewer conducting a ${role} interview.
+You are VEERAMANI, a friendly and conversational interviewer conducting a ${role} interview.
 
 CONVERSATION SO FAR:
 ${conversationHistory}
